@@ -81,7 +81,7 @@ export const PROJECT_DATA = [
     ],
 
     githubLink: "https://github.com/shafayetananto/framediary",
-    liveLink: 'https://framediary.vercel.app/',
+    liveLink:'https://framediary.vercel.app/',
   },
 
   /* 2. DescriptaAI */
@@ -133,7 +133,7 @@ export const PROJECT_DATA = [
     ],
 
     githubLink: "https://github.com/shafayetananto/descripta-ai",
-    liveLink: "https://descripta-ai.vercel.app/",
+    liveLink:"https://descripta-ai.vercel.app/",
   },
 
   /* 3. La Corte Rosso */
@@ -187,6 +187,6 @@ export const PROJECT_DATA = [
     ],
 
     githubLink: "https://github.com/shafayetananto/lacorterosso",
-    liveLink: "https://lacorterosso.vercel.app/",
+    liveLink:"https://lacorterosso.vercel.app/",
   }
 ];
