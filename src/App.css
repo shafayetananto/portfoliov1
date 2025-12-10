@@ -1,0 +1,100 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #000319;
+}
+
+::selection {
+  background-color: #92fbff;
+  color: rgb(0, 96, 141);
+}
+
+.btn-transition {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-transition::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #10b981;
+  /* green color */
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+  z-index: 0;
+}
+
+.btn-transition:hover::before {
+  transform: translateY(0);
+}
+
+.btn-transition:not(:hover)::before {
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+}
+
+.btn-transition>* {
+  position: relative;
+  z-index: 1;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+  display: flex;
+  width: max-content;
+}
+
+.project-card {
+  opacity: 0;
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.project-card-in-view {
+  opacity: 1;
+  transform: translateX(0) !important;
+  transition: opacity 0.8s ease-out, transform 0.5s ease-in-out !important;
+}
+
+@media (min-width: 768px) {
+  .project-card {
+    transform: translateX(var(--slide-offset, 0));
+  }
+}
+
+@media (max-width: 767px) {
+  .project-card {
+    transform: translateX(var(--slide-offset-mobile, 0));
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.6s ease-out forwards;
+}
