@@ -252,7 +252,7 @@ export default function Contact() {
               htmlFor="message"
               className="block text-sm font-medium text-slate-200 mb-2 flex items-center gap-2"
             >
-              <MessageSquare className="w-4 h-4 text-violet-400" />
+              <MessageSquare className="w-4 h-4 text-accentG" />
               Message
             </label>
             <textarea
