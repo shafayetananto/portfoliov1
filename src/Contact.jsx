@@ -118,7 +118,7 @@ export default function Contact() {
           email: formData.email,
           message: formData.message,
           subject: 'New Contact Form Submission',
-          from_name: 'shafayetananto.vercel.app'
+          from_name: 'shafayetbinzaman.vercel.app'
         })
       });
 
