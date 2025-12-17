@@ -80,7 +80,7 @@ export const PROJECT_DATA = [
       "Designing persistent UI states using LocalStorage",
     ],
 
-    githubLink: "https://github.com/shafayetananto/framediary",
+    githubLink: "https://github.com/shafayetzaman/framediary",
     liveLink:'https://framediary.vercel.app/',
   },
 
@@ -132,7 +132,7 @@ export const PROJECT_DATA = [
       "Providing stable UX around API-based errors",
     ],
 
-    githubLink: "https://github.com/shafayetananto/descripta-ai",
+    githubLink: "https://github.com/shafayetzaman/descripta-ai",
     liveLink:"https://descripta-ai.vercel.app/",
   },
 
@@ -186,7 +186,7 @@ export const PROJECT_DATA = [
       "Creating polished layouts that follow a premium brand identity",
     ],
 
-    githubLink: "https://github.com/shafayetananto/lacorterosso",
+    githubLink: "https://github.com/shafayetzaman/lacorterosso",
     liveLink:"https://lacorterosso.vercel.app/",
   }
 ];

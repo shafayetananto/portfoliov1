@@ -48,7 +48,7 @@ export default function Projects() {
       image: frameDiaryImage,
       logo: frameDiaryLogo,
       technologies: ["React.js", "Tailwind CSS", "TMDB API", "HTML5", "React Router", "CSS3"],
-      githubLink: "https://github.com/shafayetananto/framediary",
+      githubLink: "https://github.com/shafayetzaman/framediary",
       liveLink: "https://framediary.vercel.app/",
       invert: false
     },
@@ -60,7 +60,7 @@ export default function Projects() {
       image: descriptaAiImage,
       logo: descriptaAiLogo,
       technologies: ["React.js", "Tailwind CSS", "Gemini API", "HTML5", "AI", "CSS3", "Framer Motion"],
-      githubLink: "https://github.com/shafayetananto/descripta-ai",
+      githubLink: "https://github.com/shafayetzaman/descripta-ai",
       liveLink: "https://descripta-ai.vercel.app/",
       invert: true
     },
@@ -72,7 +72,7 @@ export default function Projects() {
       image: laCorteRossoImage,
       logo: laCorteRossoLogo,
       technologies: ["React.js", "Tailwind CSS", "React Router", "HTML5", "Swiper", "CSS3"],
-      githubLink: "https://github.com/shafayetananto/lacorterosso",
+      githubLink: "https://github.com/shafayetzaman/lacorterosso",
       liveLink: "https://lacorterosso.vercel.app/",
       invert: false
     }
