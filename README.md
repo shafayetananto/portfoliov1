@@ -6,9 +6,9 @@ The portfolio highlights who I am, how I work, the projects I build, and how you
 ---
 
 ## 🔗 Quick Links  
-- **Live Portfolio:** https://shafayetananto.vercel.app/
-- **Email:** shafayetananto06@gmail.com  
-- **GitHub:** https://github.com/shafayetananto
+- **Live Portfolio:** https://shafayetbinzaman.vercel.app/
+- **Email:** shafayetbinzaman06@gmail.com  
+- **GitHub:** https://github.com/shafayetzaman
 
 ---
 
