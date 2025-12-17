@@ -32,11 +32,11 @@ const faqs = [
           href="#"
           onClick={(e) => {
             e.preventDefault();
-            window.location.href = 'mailto:' + 'shafayetananto06' + '@' + 'gmail.com';
+            window.location.href = 'mailto:' + 'shafayetbinzaman06' + '@' + 'gmail.com';
           }}
           className="text-accentB hover:underline cursor-pointer font-medium"
         >
-          shafayetananto06@gmail.com
+          shafayetbinzaman06@gmail.com
         </a>
         . Tell me about your project, and I'll get back to you with ideas, suggestions, and a clear plan to move forward.
       </>

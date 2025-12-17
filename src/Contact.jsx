@@ -113,7 +113,7 @@ export default function Contact() {
           'Accept': 'application/json'
         },
         body: JSON.stringify({
-          access_key: '714a0186-7cb0-4faa-8dac-490a4b18e601',
+          access_key: 'bcf9758c-ae08-4098-bf39-31cbe61f8f2a',
           name: formData.name,
           email: formData.email,
           message: formData.message,
@@ -170,11 +170,11 @@ export default function Contact() {
               href="#"
               onClick={(e) => {
                 e.preventDefault();
-                window.location.href = 'mailto:' + 'shafayetananto06' + '@' + 'gmail.com';
+                window.location.href = 'mailto:' + 'shafayetbinzaman06' + '@' + 'gmail.com';
               }}
               className="text-accentB hover:underline cursor-pointer font-medium"
             >
-              shafayetananto06@gmail.com
+              shafayetbinzaman06@gmail.com
             </a> or through this form.
           </p>
         </div>
